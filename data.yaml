@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['0', '1', '2']
+
+roboflow:
+  workspace: e-jw7f7
+  project: chest-ct
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/e-jw7f7/chest-ct/dataset/1
