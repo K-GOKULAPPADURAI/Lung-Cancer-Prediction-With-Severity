@@ -1,24 +1,31 @@
 # Lung Disease Prediction using YOLOv8
 
 ## 📌 Project Overview
-This project uses **Ultralytics YOLOv8** to detect lung diseases (Cancer Malignant, Nodule, Multiple Nodules) from images. The dataset consists of **10,780 images** split into training, validation, and test sets. The model is trained for **50 epochs** using **NVIDIA CUDA** for acceleration.
+This project uses **Ultralytics YOLOv8** to detect lung diseases (**Cancer Malignant, Nodule, Multiple Nodules**) from images. The dataset consists of **10,780 images** split into training, validation, and test sets. The model is trained for **50 epochs** using **NVIDIA CUDA** for acceleration.
 
 ---
 
 ## ⚙️ Installation & Setup
-### **1️⃣ Prerequisites**
+### **1️⃣ Clone the Repository**
+Run the following command to clone the repository and navigate into the project folder:
+```bash
+git clone https://github.com/K-GOKULAPPADURAI/Lung-Cancer-Prediction-With-Severity.git
+cd Lung-Cancer-Prediction-With-Severity
+```
+
+### **2️⃣ Prerequisites**
 Ensure you have:
 - **Python 3.12.3** installed.
 - **CUDA drivers** installed (for GPU acceleration with NVIDIA GPUs).
 - **Ultralytics YOLOv8** installed.
 
-### **2️⃣ Install Dependencies**
+### **3️⃣ Install Dependencies**
 Run the following command to install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Configure Ultralytics Settings**
+### **4️⃣ Configure Ultralytics Settings**
 To check and configure **Ultralytics settings**, run:
 ```bash
 yolo settings
@@ -87,9 +94,33 @@ The trained model achieves **high accuracy** and can reliably detect lung diseas
 
 ---
 
+## 🎬 Demo
+Here’s a visual demonstration of the project workflow:
+1. **After clicking the localhost link:**
+   ![Demo 1](demo/demo_1.png)
+2. **Detection result displayed:**
+   ![Demo 2](demo/demo_2.png)
+3. **Full-screen detection image:**
+   ![Demo 3](demo/demo_3.png)
+4. **Demo Video:**
+   ![Demo Video](demo/demo_video.mp4)
+
+---
+
+## 📄 Project Reports
+For detailed insights and documentation, refer to:
+- **[Project Report (DOC)](demo/report.docs)**
+- **[Project Report (PDF)](demo/report.pdf)**
+
+---
+
 ## 🔥 Notes
 - For better performance, train the model with a **larger YOLOv8 variant** (e.g., `yolov8n.pt`).
 - If using **Google Colab**, set up a **CUDA-compatible runtime** before training.
+
+For any queries, feel free to contact me:
+📧 **Email:** k.gokulappduraikjgv@gmail.com  
+📞 **Phone:** 9025421765
 
 Happy Training! 🚀
 
