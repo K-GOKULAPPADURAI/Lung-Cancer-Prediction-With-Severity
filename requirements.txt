@@ -1,0 +1,7 @@
+ultralytics
+opencv-python
+streamlit
+pillow
+torch --index-url https://download.pytorch.org/whl/cu126 #change the version for your cuda 
+torchvision --index-url https://download.pytorch.org/whl/cu126 #change the version for your cuda
+torchaudio --index-url https://download.pytorch.org/whl/cu126 #change the version for your cuda

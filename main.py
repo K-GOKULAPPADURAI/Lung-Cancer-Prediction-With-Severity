@@ -7,7 +7,7 @@ from ultralytics import YOLO
 import base64
 
 def load_model():
-    model = YOLO(r"C:\Users\iproat26\Desktop\project\Lung Diesease Prediction\runs\detect\train8\weights\best.pt")  # Replace with actual model path
+    model = YOLO(r"runs\detect\train8\weights\best.pt")  # Replace with actual model path
     return model
 
 def predict(image, model):
