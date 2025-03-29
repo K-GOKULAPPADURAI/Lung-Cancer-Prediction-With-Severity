@@ -103,7 +103,7 @@ Here’s a visual demonstration of the project workflow:
 3. **Full-screen detection image:**
    ![Demo 3](demo/demo_3.png)
 4. **Demo Video:**
-   ![Demo Video] (demo/demo_video.mp4)
+   ![Demo Video](demo/demo_video.mp4)
 
 ---
 
